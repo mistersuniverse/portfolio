@@ -1,0 +1,118 @@
+body {
+    color: white;
+    background: #061a24;
+    padding: 0% 7% ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+    
+}
+
+.navbar-title span {
+    color: #e77f19;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin:0;
+}
+
+.navbar .navbar-items {
+    display: flex;
+    justify-content: space-between;
+    color: #6c8f9e;
+    font-size: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 3rem;
+    padding: 0;
+}
+
+.social-handles {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    background-color: #042331; 
+    flex-basis: 5%; 
+    align-items: center;
+}
+
+.social-handles a {
+    margin: 15%;
+}
+
+.social-handles .follow-me {
+    text-decoration: none;
+    rotate:90deg;
+    margin:20px 0px;
+    padding: 10px;
+    color: black;
+    background-color: #e77f19;
+}
+
+/* ----- landing page ----- */
+
+#landing-page {
+    background: #04161f;
+    padding: 2%;
+    text-align: end;
+}
+
+#landing-page img {
+    float: left;  
+    width: 30%;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+#landing-page p {
+    font-size: 1.2rem;
+    float:right;
+    text-align: center;
+    width: 25%;
+    font-family: 'Philosopher', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* ----- about ----- */
+#about {
+    clear: left;
+    padding: 5% 2%;
+    color: #6c8f9e;
+    background-color: #04161f;
+}
+
+#about img {
+    width: 30%;
+}
+
+#about p {
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.about-content {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+}
