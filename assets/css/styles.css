@@ -5,6 +5,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 /* navbar */
 .navbar {
     display: flex;
@@ -26,13 +29,17 @@ body {
     margin:0;
 }
 
-.navbar .navbar-items {
+.navbar-items, .footer-items {
     display: flex;
     justify-content: space-between;
     color: #6c8f9e;
     font-size: 1rem;
     width: 50%;
     font-size: 1.2rem;
+}
+
+.navbar-item, .footer-item, .footer-mail-link {
+    color: #6c8f9e;
 }
 
 .navbar-title {
@@ -63,6 +70,7 @@ body {
     background-color: #e77f19;
 }
 
+
 /* ----- landing page ----- */
 
 #landing-page {
@@ -89,8 +97,7 @@ h1 {
     font-family: 'Philosopher', sans-serif;;
 }
 
-a {
-    text-decoration: none;
+#landing-page > h1 > a{
     color: white;
 }
 /* ----- about ----- */
@@ -115,4 +122,16 @@ a {
     gap: 20%;
     justify-content: center;
     align-items: center;
+}
+
+#footer {
+    margin: 5% 0%;
+    padding-bottom: 2%;
+}
+
+.footer-mail {
+    padding-bottom: 3%;
+}
+.footer-mail-link {
+    font-size: 4rem;
 }
