@@ -125,6 +125,12 @@ h1 {
     align-items: center;
 }
 
+/* portfolio */
+
+#portfolio h1 {
+    color: #6c8f9e;
+}
+
 /* footer */
 
 #footer {
@@ -144,10 +150,35 @@ h1 {
 /* portfolio */
 
 .carousel {
-    width: 60%;
+    /* width: 60%; */
     margin: auto;
 }
 
 #portfolio {
     padding: 2%;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color:#04161f;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    background-color:#04161f;
+
+}
+
+
+.carousel-item a {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    color:#04161f;
+    font-size: 2rem;
+    margin: 2px;
+  }
+  
+.carousel-item i {
+    
+  }
