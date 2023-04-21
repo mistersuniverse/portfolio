@@ -27,6 +27,7 @@ a {
     justify-content: space-between;
     width: 70%;
     margin:0;
+    padding:0%;
 }
 
 .navbar-items, .footer-items {
@@ -124,9 +125,13 @@ h1 {
     align-items: center;
 }
 
+/* footer */
+
 #footer {
     margin: 5% 0%;
     padding-bottom: 2%;
+    background-color: #04161f;
+    padding: 2%;
 }
 
 .footer-mail {
@@ -134,4 +139,15 @@ h1 {
 }
 .footer-mail-link {
     font-size: 4rem;
+}
+
+/* portfolio */
+
+.carousel {
+    width: 60%;
+    margin: auto;
+}
+
+#portfolio {
+    padding: 2%;
 }
