@@ -12,7 +12,13 @@ export default {
         'custom-brown': '#46364a'
       }, 
       backgroundImage: {
-        'navbar-menu': 'url(src/assets/bgwhite.png)'
+        'navbar-menu': 'url(src/assets/bgwhite.png)',
+        'hero': 'url(src/assets/bgIMG.png)'
+      }, 
+      screens: {
+        'xs': '320px',
+        '3xl': '1820px',
+        '4xl': '2000px'
       }
     },
   },

@@ -8,15 +8,15 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='w-full flex justify-between items-center px-8 py-4 border border-solid border-white border-opacity-20 fixed z-10 filter bg-white bg-opacity-25 backdrop-blur-sm'>
+    <nav className='w-full flex justify-between items-center px-8 py-4 border border-solid border-white border-opacity-20 fixed z-50 filter bg-white bg-opacity-75 backdrop-blur-sm'>
       <div className='flex justify-between items-center'>
-        <img className=' w-24 h-5 xl:w-48 xl:h-10' src={images.logo} alt='logo' />
+        <img className=' w-44 h-5 min-[2000px]:w-48 min-[2000px]:h-10' src={images.logo} alt='logo' />
       </div>
       <ul className='flex-1 md:flex justify-center items-center hidden'>
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-          <li className='flex flex-col items-center mx-4 pointer cursor group' key={`link-${item}`} >
+          <li className='flex flex-col items-center mx-8 pointer cursor group' key={`link-${item}`} >
             <div className=' w-1 h-1 rounded-full bg-transparent mb-1 group-hover:bg-secondary'/>
-            <a className=' uppercase font-medium text-custom-gray hover:text-secondary transition ease-in-out' href={`#${item}`}>{item}</a>
+            <a className=' uppercase font-medium text-custom-gray hover:text-secondary transition ease-in-out text-sm' href={`#${item}`}>{item}</a>
           </li>
         ))}
       </ul>
@@ -27,7 +27,7 @@ const Navbar = () => {
         {toggle && (
           <motion.div
             className='fixed top-0 bottom-0 right-0 z-20 w-4/5 h-screen flex justify-end items-end flex-col bg-white bg-cover bg-repeat bg-navbar-menu shadow-xl'
-            whileInView={{ x: [300, 0] }}
+            whileInView={{ x: [100, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
             <HiX className=' w-9 h-9 text-secondary mx-6 my-4' onClick={() => setToggle(false)} />
