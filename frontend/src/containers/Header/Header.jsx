@@ -17,7 +17,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full'>
+    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full lg:mt-4'>
       <motion.div
         whileInView={{x: [-100, 0], opacity: [0, 1]}}
         transition={{duration: 0.5}}
@@ -44,7 +44,7 @@ const Header = () => {
         transition={{duration: 0.5, delayChildren: 0.5}}
         className='relative'
       >
-        <img className='z-20 relative w-full h-full mx-auto' src={images.profile} alt='profile'/>
+        <img className='z-20 relative w-full h-full mx-auto bottom-0' src={images.profile} alt='profile'/>
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: 'easeInOut'}}
