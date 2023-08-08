@@ -16,7 +16,7 @@ export default {
         'hero': 'url(src/assets/bgIMG.png)'
       }, 
       screens: {
-        'xs': '320px',
+        'xs': '350px',
         '3xl': '1820px',
         '4xl': '2000px'
       }, 

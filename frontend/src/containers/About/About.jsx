@@ -26,7 +26,7 @@ const About = () => {
             whileInView = {{ opacity: 1 }}
             whileHover = {{ scale: 1.1 }}
             transition = {{ duration: 0.5, type: 'tween'}}
-            className = 'w-56 xs:w-60 h-[360px] flex flex-col items-start justify-start min-[2000px]:w-96 min-[2000px]:mx-16 min-[2000px]:my-8 shadow-xl'
+            className = 'w-52 xs:w-60 h-[360px] flex flex-col items-start justify-start min-[2000px]:w-96 min-[2000px]:mx-16 min-[2000px]:my-8 shadow-xl'
             key = {about.title + index}
           >
             <img className='w-full h-44 min-[2000px]:h-80 rounded-2xl shadow-sm' src={urlFor(about.imgUrl)} alt={about.title} />
