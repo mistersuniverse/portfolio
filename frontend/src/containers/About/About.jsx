@@ -18,7 +18,7 @@ const About = () => {
   
   return (
     <div>
-      <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold mt-8">I Know that <span className='text-secondary'>Good Apps</span> <br />Means  <span className='text-secondary'>Good Business</span></h2>
+      <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold">I Know that <span className='text-secondary'>Good Apps</span> <br />Means  <span className='text-secondary'>Good Business</span></h2>
 
       <div className='flex justify-center items-start flex-wrap mt-8 gap-8'>
         {abouts.map((about, index) => (

@@ -26,7 +26,7 @@ const Skills = () => {
 
   return (
     <div className='flex justify-start flex-col items-center'>
-      <h2 className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold mt-8'> Skills & Experience</h2>
+      <h2 className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold'> Skills & Experience</h2>
 
       <div className='w-full xs:w-4/5 mt-4 flex justify-between'>
         <div className='flex-1 flex flex-wrap justify-start items-start sm:justify-center sm:items-center'>

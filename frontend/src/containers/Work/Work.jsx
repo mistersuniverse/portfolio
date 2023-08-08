@@ -38,7 +38,7 @@ const Work = () => {
 
   return (
     <div>
-      <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold mt-8">My Creative <span className='text-secondary'>Portfolio</span><br /> Section</h2>
+      <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold">My Creative <span className='text-secondary'>Portfolio</span><br /> Section</h2>
 
       <div className='flex justify-evenly items-center flex-wrap mt-16 mx-8 4xl:py-4'>
         {

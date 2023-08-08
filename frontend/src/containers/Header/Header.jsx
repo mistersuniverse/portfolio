@@ -17,7 +17,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className='bg-hero relative bg-cover bg-center bg-repeat bg-primary flex flex-col lg:flex-row w-full h-full lg:mt-4 '>
+    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full lg:mt-4 '>
       <motion.div
         whileInView={{x: [-100, 0], opacity: [0, 1]}}
         transition={{duration: 0.5}}
@@ -71,4 +71,4 @@ const Header = () => {
   )
 }
 
-export default AppWrap(Header, 'home');
+export default AppWrap(Header, 'home', 'bg-primary');

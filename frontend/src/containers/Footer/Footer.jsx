@@ -37,7 +37,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold mt-8'> Take a Coffee & chat with me</h2>
+      <h2 className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold'> Take a Coffee & chat with me</h2>
 
       <div className='w-full md:w-4/5 lg:w-3/5 flex justify-evenly items-center flex-wrap mt-16 xs:mx-8 mb-2 xs:mb-8 flex-col md:flex-row'>
         <div className='flex justify-start items-center xs:flex-row flex-col my-2 xs:my-4 mx-0 p-1 cursor-pointer rounded-xl bg-[#fef4f5] hover:shadow-lg border border-custom-gray border-opacity-10'>
