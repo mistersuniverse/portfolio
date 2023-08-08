@@ -106,5 +106,5 @@ const Work = () => {
 export default AppWrap(
   MotionWrap(Work, 'flex w-full flex-col'),
   'work',
-  'bg-white'
+  'bg-primary'
 );
