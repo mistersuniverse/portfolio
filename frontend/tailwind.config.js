@@ -12,11 +12,11 @@ export default {
         'custom-brown': '#46364a'
       }, 
       backgroundImage: {
-        'side-nav': 'url(bgWhite.png)',
-        'hero': 'url(bgIMG.png)'
+        'navbar-menu': 'url(src/assets/bgwhite.png)',
+        'hero': 'url(src/assets/bgIMG.png)'
       }, 
       screens: {
-        'xs': '350px',
+        'xs': '320px',
         '3xl': '1820px',
         '4xl': '2000px'
       }, 

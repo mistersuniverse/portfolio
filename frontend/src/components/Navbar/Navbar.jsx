@@ -3,6 +3,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
+import bg from '../../assets/bgImg.png';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -26,9 +27,10 @@ const Navbar = () => {
 
         {toggle && (
           <motion.div
-            className='fixed top-0 bottom-0 right-0 z-20 w-4/5 h-screen flex justify-end items-end flex-col bg-white bg-cover bg-repeat bg-side-nav shadow-xl'
+            className='fixed top-0 bottom-0 right-0 z-20 w-4/5 h-screen flex justify-end items-end flex-col bg-white bg-cover bg-repeat shadow-xl'
             whileInView={{ x: [100, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
+            style={{backgroundImage: `url(${bg})`}}
           >
             <HiX className=' w-9 h-9 text-secondary mx-6 my-4' onClick={() => setToggle(false)} />
             <ul className='h-full w-full flex justify-start items-start flex-col'>
