@@ -12,8 +12,8 @@ export default {
         'custom-brown': '#46364a'
       }, 
       backgroundImage: {
-        'side-nav': 'url(src/assets/bgWhite.png)',
-        'hero': 'url(src/assets/bgIMG.png)'
+        'side-nav': 'url(bgWhite.png)',
+        'hero': 'url(bgIMG.png)'
       }, 
       screens: {
         'xs': '350px',
