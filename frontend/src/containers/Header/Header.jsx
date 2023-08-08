@@ -17,7 +17,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full lg:mt-4'>
+    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full lg:mt-4 '>
       <motion.div
         whileInView={{x: [-100, 0], opacity: [0, 1]}}
         transition={{duration: 0.5}}
@@ -28,7 +28,7 @@ const Header = () => {
             <span className=' text-[2rem] xl:text-[3rem]'>👋</span>
             <div className=' ml-[6px]'>
               <p className=' text-xs xs:text-sm text-custom-gray font-medium'>Hello, I am</p>
-              <h1 className='text-xl xs:text-2xl sm:text-3xl font-bold'>Suraj Shukla</h1>
+              <h1 className='text-lg xs:text-2xl sm:text-3xl font-bold'>Suraj Shukla</h1>
             </div>
           </div>
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
 
-import { urlFor, client } from '../../../client';
-import { AppWrap } from '../../wrapper';
+import { urlFor, client } from '../../client';
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 const About = () => {
 
@@ -16,7 +16,6 @@ const About = () => {
 
   }, [])
   
-  console.log(abouts);
   return (
     <div>
       <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold mt-8">I Know that <span className='text-secondary'>Good Apps</span> <br />Means  <span className='text-secondary'>Good Business</span></h2>
@@ -41,4 +40,8 @@ const About = () => {
   )
 }
 
-export default AppWrap(About, 'about');
+export default AppWrap(
+  MotionWrap(About, 'flex w-full flex-col'),
+  'about',
+  'bg-white'
+);

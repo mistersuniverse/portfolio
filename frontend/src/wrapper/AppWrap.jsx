@@ -2,12 +2,12 @@ import React from 'react';
 
 import { NavigationDots, SocialMedia } from '../components';
 
-const AppWrap = ( Component, idName, classNames ) => function HOC() {
+const AppWrap = ( Component, idName ) => function HOC() {
   return (
     <div id={ idName } className='w-full min-h-screen flex' >
         <SocialMedia />
 
-        <div className='flex-1 w-full flex-col pt-16 sm:px-8 px-0'>
+        <div className={`flex-1 w-full flex-col pt-16 sm:px-8 px-0`}>
             <Component />
 
             {/* <div className='w-full pt-8 flex flex-col justify-end items-end'>

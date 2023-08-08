@@ -19,6 +19,9 @@ export default {
         'xs': '320px',
         '3xl': '1820px',
         '4xl': '2000px'
+      }, 
+      fontFamily: {
+        'base': ['DM Sans', 'sans-serif']
       }
     },
   },
