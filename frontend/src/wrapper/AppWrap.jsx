@@ -5,7 +5,7 @@ import { NavigationDots, SocialMedia } from '../components';
 const AppWrap = ( Component, idName, className ) => function HOC() {
 
   return (
-    <div id={ idName } className={`w-full min-h-screen flex mb-4 ${className}`} >
+    <div id={ idName } className={`w-full min-h-screen flex mb-2 pb-2 ${className}`} >
         <SocialMedia />
 
         <div className={`flex-1 w-full flex-col pt-16 sm:px-8 px-0`}>
