@@ -12,7 +12,7 @@ export default {
         'custom-brown': '#46364a'
       }, 
       backgroundImage: {
-        'side-nav': 'url(src/assets/bgwhite.png)',
+        'side-nav': 'url(src/assets/bgWhite.png)',
         'hero': 'url(src/assets/bgIMG.png)'
       }, 
       screens: {
