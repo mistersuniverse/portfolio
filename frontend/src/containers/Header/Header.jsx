@@ -17,7 +17,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full mt-4 '>
+    <div className='bg-hero relative bg-cover bg-center bg-repeat flex flex-col lg:flex-row w-full h-full mt-8 '>
       <motion.div
         whileInView={{x: [-100, 0], opacity: [0, 1]}}
         transition={{duration: 0.5}}
