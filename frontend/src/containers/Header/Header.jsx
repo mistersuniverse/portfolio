@@ -60,7 +60,7 @@ const Header = () => {
         className='flex-[0.75] xs:flex-row flex-col flex lg:flex-col xs:justify-evenly xs:items-start mx-auto xs:mx-0 h-full sm:ml-4 mt-4 xs:mt-8 sm:mt-16 lg:mt-0 skill-circles'
       >
         { 
-          [ images.flutter, images.redux, images.sass ].map((circle, index) => (
+          [ images.react, images.redux, images.node ].map((circle, index) => (
             <motion.div whileHover={{scale:1.1}} className='rounded-full bg-white shadow-lg flex items-center justify-center border border-gray-300 ' key={`circle-${index}`}>
               <img className='w-3/5 h-3/5' src={circle} alt='profile_bg' />
             </motion.div>

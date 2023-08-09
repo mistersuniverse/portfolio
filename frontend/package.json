@@ -13,6 +13,7 @@
     "@sanity/client": "^6.4.0",
     "@sanity/image-url": "^1.0.2",
     "framer-motion": "^10.15.0",
+    "next-sanity": "^5.2.4",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

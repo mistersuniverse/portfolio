@@ -44,9 +44,9 @@ const Footer = () => {
           <img className='w-7 h-7 mb-1 xs:w-10 xs:h-10 mx-3' src={images.email} alt='email' />
           <a className='font-medium' href='mailto:surajshukla5604@gmail.com'>hello@surajshukla.com</a>
         </div>
-        <div className='flex justify-start items-center xs:flex-row flex-col my-2 xs:my-4 mx-0 p-1 cursor-pointer rounded-xl bg-[#f2f7fb] hover:shadow-lg border border-custom-gray border-opacity-10'>
-          <img className='w-7 h-7 mb-1 xs:w-10 xs:h-10 mx-3' src={images.mobile} alt='email' />
-          <a className='font-medium' href='tel: +91 8595561625'>+91 9544567890</a>
+        <div className='flex justify-center items-center xs:flex-row flex-col my-2 xs:my-4 mx-0 p-1 cursor-pointer rounded-xl bg-[#f2f7fb] hover:shadow-lg border border-custom-gray border-opacity-10'>
+          <img className='w-7 h-7 mb-1 xs:w-10 xs:h-10 mx-1' src={images.mobile} alt='email' />
+          <a className='font-medium mr-1' href='tel: +91 8595561625'>+91 9544567890</a>
         </div>
       </div>
 

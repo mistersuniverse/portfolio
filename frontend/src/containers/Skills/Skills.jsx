@@ -28,7 +28,7 @@ const Skills = () => {
     <div className='flex justify-start flex-col items-center'>
       <h2 className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-center font-bold'> Skills & Experience</h2>
 
-      <div className='w-full xs:w-4/5 mt-4 flex justify-between'>
+      <div className='w-full xs:w-4/5 mt-8 flex justify-between'>
         <div className='flex-1 flex flex-wrap justify-start items-start sm:justify-center sm:items-center'>
           {
             skills.map((skill, index) => (
@@ -51,7 +51,7 @@ const Skills = () => {
         <div className="flex-[0.75] flex justify-start items-start flex-col">
           {experiences.map((experience, index) => (
             <motion.div
-              className="w-full flex justify-start items-start mt-4 xs:pt-[17px] md:pt-[26.5px] lg:gap-20 sm:gap-6 gap-4"
+              className="w-full flex justify-start items-start mt-5 xs:pt-[17px] md:pt-[26.5px] lg:gap-20 sm:gap-6 gap-4"
               key={`${experience}-${index}`}
             >
               <div className="">
